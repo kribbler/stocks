@@ -1,0 +1,6 @@
+time,price,quantity,source,buyer,seller,initiator
+20170823T142928,3.42,4000,Auto trade,NON,DDB,S
+20170823T142928,3.41,2000,Auto trade,NTF,DDB,S
+20170823T142928,3.4,3500,Auto trade,NON,DDB,S
+20170823T142936,3.36,500,Auto trade,PAS,DDB,B
+20170823T142940,3.39,550,Auto trade,PAS,NON,B

@@ -1,0 +1,678 @@
+2017-03-31 20:49:05 Error: [Cake\View\Exception\MissingTemplateException] Template file "Stocks/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Stocks/index.ctp',
+)
+Request URL: /stocks
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->_getViewFileName('Stocks/index')
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-04-01 13:55:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/trades
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 13:56:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/trades
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 13:56:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 14:14:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/trades/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 14:18:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/files/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 14:19:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-01 14:19:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-06 18:45:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/trades
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-06 18:47:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-06 18:59:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/stocks/
+Referer URL: http://localhost:8888/stocks/stocks/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-04-22 19:19:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `stock_id_fk` FOREIGN KEY (`stock_id`) REFERENCES `stocks` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Stock), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(101): Cake\ORM\Table->delete(Object(App\Model\Entity\Stock))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#26 {main}
+
+
+2017-04-25 19:41:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `stock_id_fk` FOREIGN KEY (`stock_id`) REFERENCES `stocks` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Stock), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(101): Cake\ORM\Table->delete(Object(App\Model\Entity\Stock))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#26 {main}
+
+
+2017-04-25 19:46:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(120): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteFilesByStockId('2')
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#27 {main}
+
+
+2017-04-25 19:53:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(121): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(135): App\Controller\StocksController->deleteFile(4)
+#13 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-04-25 19:54:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(121): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(135): App\Controller\StocksController->deleteFile(4)
+#13 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-04-25 19:54:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(121): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(136): App\Controller\StocksController->deleteFile(4)
+#13 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-04-25 19:54:45 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(121): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(136): App\Controller\StocksController->deleteFile(4)
+#13 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-04-25 19:54:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`stocks`.`trades`, CONSTRAINT `file_id_fk` FOREIGN KEY (`file_id`) REFERENCES `files` (`id`))
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(313): Cake\Database\Log\LoggingStatement->execute()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2152): Cake\Database\Query->execute()
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2073): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\File), Object(ArrayObject))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1446): Cake\ORM\Table->Cake\ORM\{closure}()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(680): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\Database\Connection->transactional(Object(Closure))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(2074): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#11 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(122): Cake\ORM\Table->delete(Object(App\Model\Entity\File))
+#12 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(137): App\Controller\StocksController->deleteFile(4)
+#13 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-04-25 19:54:58 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/functions.php line=148 in [/Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-25 19:54:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/functions.php:148) in [/Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-25 19:54:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/functions.php:148) in [/Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-25 19:54:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/functions.php:148) in [/Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 106
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-04-25 19:56:17 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::delete() must implement interface Cake\Datasource\EntityInterface, integer given, called in /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php on line 137 in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php on line 2064
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(137): Cake\ORM\Table->delete(1192)
+#1 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-04-25 19:56:53 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::delete() must implement interface Cake\Datasource\EntityInterface, integer given, called in /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php on line 137 in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php on line 2064
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(137): Cake\ORM\Table->delete(1192)
+#1 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-04-25 19:57:12 Warning: Headers already sent in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/functions.php:148
+2017-04-25 19:57:12 Error: [TypeError] Argument 1 passed to Cake\ORM\Table::delete() must implement interface Cake\Datasource\EntityInterface, integer given, called in /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php on line 138 in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php on line 2064
+Request URL: /stocks/delete/2
+Referer URL: http://localhost:8888/stocks/stocks/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(138): Cake\ORM\Table->delete(1192)
+#1 /Applications/MAMP/htdocs/stocks/src/Controller/StocksController.php(99): App\Controller\StocksController->deleteTradesByStockId('2')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\StocksController->delete('2')
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\StocksController))
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Http/Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/stocks/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+

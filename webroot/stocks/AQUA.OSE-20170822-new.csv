@@ -1,0 +1,5 @@
+time,price,quantity,source,buyer,seller,initiator
+20170822T090026,3.49,250,Auto trade,DNM,DNM,S
+20170822T092850,3.49,1190,Auto trade,DNM,NTF,S
+20170822T113041,3.48,2667,Auto trade,ESO,MLI,B
+20170822T113041,3.49,12083,Auto trade,ESO,NTF,B

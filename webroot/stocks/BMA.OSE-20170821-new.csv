@@ -1,0 +1,4 @@
+time,price,quantity,source,buyer,seller,initiator
+20170821T102758,107.5,7,Auto trade,AVA,AVA,S
+20170821T161943,107.0,5,Auto trade,NON,AVA,S
+20170821T161943,102.0,60,Auto trade,NON,AVA,S

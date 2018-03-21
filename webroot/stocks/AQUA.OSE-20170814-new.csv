@@ -1,0 +1,3 @@
+time,price,quantity,source,buyer,seller,initiator
+20170814T090011,3.6,250,Auto trade,NTF,DDB,S
+20170814T091459,3.6,1494,Auto trade,NTF,NTF,S

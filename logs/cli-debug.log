@@ -1,0 +1,168 @@
+2017-03-31 21:23:00 Notice: Notice (8): Undefined variable: stock_id in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::getStockInfo() - APP/Shell/MasterShell.php, line 44
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 30
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 05:57:31 Notice: Notice (8): Use of undefined constant data - assumed 'data' in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 28
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-13 05:36:01 Notice: Notice (8): Undefined variable: stock_name in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::specific() - APP/Shell/MasterShell.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-13 05:38:35 Notice: Notice (8): Undefined variable: stock_info in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 120]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::saveBidSizeFile() - APP/Shell/MasterShell.php, line 120
+App\Shell\MasterShell::specific() - APP/Shell/MasterShell.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-13 05:39:15 Notice: Notice (8): Undefined variable: stock_info in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 121]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::saveBidSizeFile() - APP/Shell/MasterShell.php, line 121
+App\Shell\MasterShell::specific() - APP/Shell/MasterShell.php, line 69
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-16 04:49:01 Notice: Notice (8): Undefined property: stdClass::$kind in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:03 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 52
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:03 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 55
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:54 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 52
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:42:42 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 52
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:43:24 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 52
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:44:43 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 52
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-24 12:52:12 Notice: Notice (8): Undefined variable: name in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 106]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::sendSMS() - APP/Shell/VoiceShell.php, line 106
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 94
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 68
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+

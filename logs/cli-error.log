@@ -1,0 +1,750 @@
+2017-03-31 20:31:07 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(367): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(386): Cake\Database\Connection->getSchemaCollection()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(959): Cake\Database\Connection->schemaCollection()
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/BakeShell.php(237): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(458): Bake\Shell\BakeShell->all()
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-31 20:34:26 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(367): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(386): Cake\Database\Connection->getSchemaCollection()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(959): Cake\Database\Connection->schemaCollection()
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->listUnskipped()
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(458): Bake\Shell\BakeShell->all()
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-31 20:35:18 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(367): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(386): Cake\Database\Connection->getSchemaCollection()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(959): Cake\Database\Connection->schemaCollection()
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(207): Bake\Shell\Task\ModelTask->listAll()
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'stocks', 'Stocks')
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Stocks')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\ModelTask->main('stocks')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2017-03-31 20:36:07 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(367): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(530): Cake\Database\Connection->getSchemaCollection()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/ORM/Table.php(652): Cake\ORM\Table->getSchema()
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(291): Cake\ORM\Table->getPrimaryKey()
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\TemplateTask->main('stocks')
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-31 20:42:50 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'root', Array)
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(367): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Database/Connection.php(386): Cake\Database\Connection->getSchemaCollection()
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(959): Cake\Database\Connection->schemaCollection()
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#10 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(207): Bake\Shell\Task\ModelTask->listAll()
+#11 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'stocks', 'Stocks')
+#13 /Applications/MAMP/htdocs/stocks/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Stocks')
+#14 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\ModelTask->main('stocks')
+#15 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#16 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2017-03-31 21:01:25 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-03-31 21:03:59 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 26
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-03-31 21:04:14 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 26
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-03-31 21:04:30 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 26
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-03-31 21:23:02 Warning: Warning (2): file_put_contents(/webroot/stocks/1-20170331.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 59
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-03-31 21:23:36 Warning: Warning (2): file_put_contents(/webroot/stocks/1-20170331.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 59
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:04:20 Warning: Warning (2): file_put_contents(webroot/stocks/1-20170401.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 59
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:05:35 Warning: Warning (2): file_put_contents(/stocks/1-20170401.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 59
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:06:02 Warning: Warning (2): file_put_contents(/stocks/1-20170401.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 60
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:06:25 Warning: Warning (2): file_put_contents(/stocks/1-20170401.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file_put_contents - [internal], line ??
+App\Shell\MasterShell::saveResultAsCsvFile() - APP/Shell/MasterShell.php, line 60
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 33
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:29:25 Warning: Warning (2): file(AXA.OSE-20170401.csv): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file - [internal], line ??
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 35
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 06:29:25 Warning: Warning (2): array_map(): Argument #2 should be an array in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+array_map - [internal], line ??
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 35
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 13:41:35 Warning: Warning (2): file(/Applications/MAMP/htdocs/stocks/webroot/stocks/20170401): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+file - [internal], line ??
+App\Shell\MasterShell::saveResultToDatabase() - APP/Shell/MasterShell.php, line 69
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 36
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-01 13:41:35 Warning: Warning (2): array_map(): Argument #2 should be an array in [/Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+array_map - [internal], line ??
+App\Shell\MasterShell::saveResultToDatabase() - APP/Shell/MasterShell.php, line 69
+App\Shell\MasterShell::master() - APP/Shell/MasterShell.php, line 36
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-04-09 06:16:33 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 121
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Maste...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Maste...')
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Maste...')
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\MasterSh...', 'App')
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('Master', 'Shell', 'Shell')
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('Master')
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('Master')
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-04-09 06:17:27 Error: [ArgumentCountError] Too few arguments to function App\Shell\MasterShell::getIndividulStocksList(), 0 passed in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 45 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 118
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php(45): App\Shell\MasterShell->getIndividulStocksList()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\MasterShell->individual('AXA.OSE')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-04-09 06:17:42 Error: [ArgumentCountError] Too few arguments to function App\Shell\MasterShell::getIndividulStocksList(), 0 passed in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 45 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 118
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php(45): App\Shell\MasterShell->getIndividulStocksList()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\MasterShell->individual('AXA.OSE')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-04-09 06:18:32 Error: [ArgumentCountError] Too few arguments to function App\Shell\MasterShell::getIndividulStocksList(), 0 passed in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 45 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php on line 119
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/MasterShell.php(45): App\Shell\MasterShell->getIndividulStocksList()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\MasterShell->individual('AXA.OSE')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-07 05:40:48 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 21
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Applications/M...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Voice...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Voice...')
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Voice...')
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\VoiceShe...', 'App')
+#5 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('Voice', 'Shell', 'Shell')
+#6 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('Voice')
+#7 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('Voice')
+#8 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-05-07 05:40:56 Error: [ArgumentCountError] Too few arguments to function App\Shell\VoiceShell::main(), 0 passed in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php on line 452 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 17
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#5 {main}
+
+
+2017-05-07 05:42:50 Error: [ArgumentCountError] Too few arguments to function App\Shell\VoiceShell::readUrl(), 0 passed in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 19 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 24
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php(19): App\Shell\VoiceShell->readUrl()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-07 05:57:31 Warning: Warning (2): Illegal string offset 'results' in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 28
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 05:58:20 Error: [Error] Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 28
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php(20): App\Shell\VoiceShell->processData(Object(stdClass))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-07 06:08:31 Warning: Warning (2): fopen(/Applications/MAMP/htdocs/stocks/webroot/last.json): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 40
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:08:31 Warning: Warning (2): filesize(): stat failed for /Applications/MAMP/htdocs/stocks/webroot/last.json in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+filesize - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 41
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:08:31 Warning: Warning (2): fread() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 41
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:08:53 Warning: Warning (2): fopen(/Applications/MAMP/htdocs/stocks/webroot/last.json): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 40
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:08:53 Warning: Warning (2): filesize(): stat failed for /Applications/MAMP/htdocs/stocks/webroot/last.json in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+filesize - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 42
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:08:53 Warning: Warning (2): fread() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 42
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:10:22 Warning: Warning (2): fread(): Length parameter must be greater than 0 in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 42
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 34
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 20
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-07 06:14:51 Error: [Error] Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 36
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php(20): App\Shell\VoiceShell->processData(Object(stdClass))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-07 06:15:07 Error: [Error] Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 36
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php(20): App\Shell\VoiceShell->processData(Object(stdClass))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-07 06:15:26 Error: [Error] Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 37
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php(20): App\Shell\VoiceShell->processData(Object(stdClass))
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2017-05-16 04:49:17 Error: [Error] Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 20
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main('a')
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#5 {main}
+
+
+2017-05-23 05:38:56 Error: [ArgumentCountError] Too few arguments to function App\Shell\VoiceShell::main(), 0 passed in /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php on line 452 and exactly 1 expected in /Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php on line 17
+Stack Trace:
+#0 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/Shell.php(452): App\Shell\VoiceShell->main()
+#1 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#3 /Applications/MAMP/htdocs/stocks/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#4 /Applications/MAMP/htdocs/stocks/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#5 {main}
+
+
+2017-05-23 05:39:03 Warning: Warning (2): fopen(/Applications/MAMP/htdocs/stocks/webroot/voice75853.json): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 116
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:03 Warning: Warning (2): filesize(): stat failed for /Applications/MAMP/htdocs/stocks/webroot/voice75853.json in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+filesize - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:03 Warning: Warning (2): fread() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:03 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 118]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fclose - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 118
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:54 Warning: Warning (2): fopen(/Applications/MAMP/htdocs/stocks/webroot/voice75853.json): failed to open stream: No such file or directory in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 116
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:54 Warning: Warning (2): filesize(): stat failed for /Applications/MAMP/htdocs/stocks/webroot/voice75853.json in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+filesize - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:54 Warning: Warning (2): fread() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:39:54 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 118]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fclose - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 118
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:42:42 Warning: Warning (2): fread(): Length parameter must be greater than 0 in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:43:24 Warning: Warning (2): fread(): Length parameter must be greater than 0 in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 117]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 117
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 49
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:52:57 Warning: Warning (2): fread(): Length parameter must be greater than 0 in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 130
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 57
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 39
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-05-23 05:52:58 Warning: Warning (2): fread(): Length parameter must be greater than 0 in [/Applications/MAMP/htdocs/stocks/src/Shell/VoiceShell.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fread - [internal], line ??
+App\Shell\VoiceShell::readFromFile() - APP/Shell/VoiceShell.php, line 130
+App\Shell\VoiceShell::processData() - APP/Shell/VoiceShell.php, line 57
+App\Shell\VoiceShell::main() - APP/Shell/VoiceShell.php, line 39
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
